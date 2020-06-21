@@ -5,6 +5,7 @@
 #include "merge_sort.h"
 #include "bubble_sort.h"
 #include "quick_sort.h"
+#include "selection_sort.h"
 
 #include "array_function.h"
 
@@ -24,20 +25,22 @@ int main()
 
     std::cout << "Array" << std::endl;
     print_list(array, SIZE);
-    quick_sort(array, 0, SIZE - 1);
+    // quick_sort(array, 0, SIZE - 1);
     // insertion_sort(array, SIZE);
     // merge_sort(array, 0, SIZE - 1);
     // bubble_sort(array, SIZE);
+    selection_sort(array, SIZE);
     print_list(array, SIZE);
     // list_reverce(array, SIZE);
     // print_list(array, SIZE);
 
     std::cout << "Vector" << std::endl;
     print_list(vector);
-    quick_sort(vector, 0, SIZE - 1);
+    // quick_sort(vector, 0, SIZE - 1);
     // insertion_sort(vector);
     // merge_sort(vector, 0, SIZE - 1);
     // bubble_sort(vector);
+    selection_sort(vector);
     print_list(vector);
     // list_reverce(vector);
     // print_list(vector);

@@ -57,11 +57,3 @@ int partition(std::vector<int> &vector, int low, int high)
     swap(vector[i + 1], vector[high]);
     return (i + 1);
 }
-
-// swap function
-void swap(int &a, int &b)
-{
-    int tmp = a;
-    a = b;
-    b = tmp;
-}
