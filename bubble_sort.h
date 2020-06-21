@@ -3,7 +3,7 @@
 
 #include <vector>
 
-void bubble_sort(int array[], int size);
-void bubble_sort(std::vector<int> &vector);
+void bubble_sort(int array[], int size);        // sort arrays
+void bubble_sort(std::vector<int> &vector);     // sort vectors
 
 #endif

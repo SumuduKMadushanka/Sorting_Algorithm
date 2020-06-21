@@ -3,7 +3,7 @@
 
 #include <vector>
 
-void insertion_sort(int array[], int size);
-void insertion_sort(std::vector<int> &vector);
+void insertion_sort(int array[], int size);     // sort arrays
+void insertion_sort(std::vector<int> &vector);  // sort vectors
 
 #endif

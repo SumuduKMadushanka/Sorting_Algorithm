@@ -45,6 +45,7 @@ int main()
     return 0;
 }
 
+// print arrays
 void print_list(int array[], int size)
 {
     for (int i = 0; i < size; i++)
@@ -54,6 +55,7 @@ void print_list(int array[], int size)
     std::cout << std::endl;
 }
 
+// print vectors
 void print_list(std::vector<int> vector)
 {
     for (int key : vector)
@@ -63,6 +65,7 @@ void print_list(std::vector<int> vector)
     std::cout << std::endl;
 }
 
+// reverce arrays
 void list_reverce(int array[], int size)
 {
     int mid = size/2;
@@ -74,6 +77,7 @@ void list_reverce(int array[], int size)
     }
 }
 
+// reverce vectors
 void list_reverce(std::vector<int> &vector)
 {
     int size = vector.size();
