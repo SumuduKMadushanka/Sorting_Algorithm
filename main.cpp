@@ -5,10 +5,7 @@
 #include "merge_sort.h"
 #include "bubble_sort.h"
 
-void print_list(int array[], int);
-void print_list(std::vector<int>);
-void list_reverce(int array[], int);
-void list_reverce(std::vector<int> &vector);
+#include "array_function.h"
 
 int main()
 {
@@ -43,49 +40,4 @@ int main()
     // print_list(vector);
 
     return 0;
-}
-
-// print arrays
-void print_list(int array[], int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        std::cout << array[i] << " ";
-    }
-    std::cout << std::endl;
-}
-
-// print vectors
-void print_list(std::vector<int> vector)
-{
-    for (int key : vector)
-    {
-        std::cout << key << " ";
-    }
-    std::cout << std::endl;
-}
-
-// reverce arrays
-void list_reverce(int array[], int size)
-{
-    int mid = size/2;
-    for (int i = 0; i < mid; i++)
-    {
-        int tmp = array[size - 1 - i];
-        array[size - 1 - i] = array[i];
-        array[i] = tmp;
-    }
-}
-
-// reverce vectors
-void list_reverce(std::vector<int> &vector)
-{
-    int size = vector.size();
-    int mid = size/2;
-    for (int i = 0; i < mid; i++)
-    {
-        int tmp = vector[size - 1 - i];
-        vector[size - 1 - i] = vector[i];
-        vector[i] = tmp;
-    }
 }
