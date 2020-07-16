@@ -8,6 +8,7 @@
 #include "quick_sort.h"
 #include "selection_sort.h"
 #include "heap_sort.h"
+#include "shell_sort.h"
 
 #include "array_function.h"
 
@@ -32,7 +33,8 @@ int main()
     // bubble_sort(array, SIZE);
     // quick_sort(array, 0, SIZE - 1);
     // selection_sort(array, SIZE);
-    heap_sort(array, SIZE);
+    // heap_sort(array, SIZE);
+    shell_sort(array, SIZE);
     print_list(array, SIZE);
 
     std::cout << "Vector" << std::endl;
@@ -42,7 +44,8 @@ int main()
     // bubble_sort(vector);
     // quick_sort(vector, 0, SIZE - 1);
     // selection_sort(vector);
-    heap_sort(vector);
+    // heap_sort(vector);
+    shell_sort(vector);
     print_list(vector);
 
     return 0;

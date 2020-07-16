@@ -20,6 +20,8 @@ g++ -c ./quick_sort.cpp -o ./object_files/quick_sort.o -std=c++11
 g++ -c ./selection_sort.cpp -o ./object_files/selection_sort.o -std=c++11
 :: Compile the "heap_sort.cpp"
 g++ -c ./heap_sort.cpp -o ./object_files/heap_sort.o -std=c++11
+:: Compile the "shell_sort.cpp"
+g++ -c ./shell_sort.cpp -o ./object_files/shell_sort.o -std=c++11
 echo Completed the compilation
 
 :: Link the object files
