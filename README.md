@@ -1,0 +1,2 @@
+# Sorting Algorithm
+This project contains common sorting algorithms which can use to sort an integer array or vector in **C++**. All the object files are compiled in **Windows 10** environment. If there is a issue using those object files, Source codes can be compliled using [setup.bat](https://github.com/SumuduKMadushanka/Sorting_Algorithm/blob/master/setup.bat) script according to the environment.
