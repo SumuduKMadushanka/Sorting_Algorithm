@@ -26,6 +26,7 @@ int main()
         vector.push_back(tmp);
     }
 
+    std::cout << "Modified the setup.bat file" << std::endl;
     std::cout << "Array" << std::endl;
     print_list(array, SIZE);
     // insertion_sort(array, SIZE);
